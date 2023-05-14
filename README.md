@@ -2,6 +2,11 @@
 
 - Nameste React By Akshay Saini
 
+## Build Commands
+
+- Development Build  -- npx parcel index.html(entrypoint)
+- Production Build -- npx parcel build index.html(entrypoint)
+
 ## Parcel
 
 - Dev Build
@@ -13,3 +18,11 @@
 - Minification of files
 - Bundling of files
 - Compress files
+- Consisting Hashing
+- Code Splitting
+- Differential Bundling - support older browsers
+- Diagnostic
+- Error Handling
+- Https hosting
+- Tree Shaking - remove unused code
+- Different dev and prod bundles
