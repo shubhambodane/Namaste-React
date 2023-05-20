@@ -1,0 +1,1550 @@
+[
+  {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "450821",
+      "name": "CP CORNER",
+      "uuid": "d7571b81-0ce9-4e07-97e5-416c93c25f57",
+      "city": "6",
+      "area": "Hinjawadi",
+      "totalRatingsString": "100+ ratings",
+      "cloudinaryImageId": "ohrsgt7k6q8hmbb3uged",
+      "cuisines": [
+        "Indian",
+        "Maharashtrian",
+        "Thalis",
+        "Chinese",
+        "Beverages",
+        "South Indian"
+      ],
+      "tags": [],
+      "costForTwo": 25000,
+      "costForTwoString": "₹250 FOR TWO",
+      "deliveryTime": 33,
+      "minDeliveryTime": 33,
+      "maxDeliveryTime": 33,
+      "slaString": "33 MINS",
+      "lastMileTravel": 3.5999999046325684,
+      "slugs": {
+        "restaurant": "cp-corner-hinjewadi-hinjewadi",
+        "city": "pune"
+      },
+      "cityState": "6",
+      "address": "S NO. 138/2/1 KATE APARTMENT, HINJAWADI, PUNE PCMC ward No-48, Pune PCMC, Maharashtra, 411057",
+      "locality": "1st Phase",
+      "parentId": 271117,
+      "unserviceable": false,
+      "veg": false,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [],
+      "ribbon": [
+        {
+          "type": "PROMOTED"
+        }
+      ],
+      "chain": [],
+      "feeDetails": {
+        "fees": [
+          {
+            "name": "distance",
+            "fee": 4800,
+            "message": ""
+          },
+          {
+            "name": "time",
+            "fee": 0,
+            "message": ""
+          },
+          {
+            "name": "special",
+            "fee": 0,
+            "message": ""
+          }
+        ],
+        "totalFees": 4800,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "4800",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "cid=6804820~p=1~eid=00000188-35b3-fd36-6047-f54900a60165",
+      "badges": {
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
+      },
+      "lastMileTravelString": "3.5 kms",
+      "hasSurge": false,
+      "aggregatedDiscountInfoV3": {
+        "header": "60% OFF",
+        "subHeader": "UPTO ₹100",
+        "discountTag": "",
+        "headerTypeV2": 0
+      },
+      "sla": {
+        "restaurantId": "450821",
+        "deliveryTime": 33,
+        "minDeliveryTime": 33,
+        "maxDeliveryTime": 33,
+        "lastMileTravel": 3.5999999046325684,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": true,
+      "avgRating": "3.9",
+      "totalRatings": 100,
+      "new": false
+    },
+    "subtype": "basic"
+  },
+  {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "441447",
+      "name": "Burger King",
+      "uuid": "a55ae3be-c0fc-47e4-b744-87b7b9fe4bda",
+      "city": "6",
+      "area": "Hinjewadi",
+      "totalRatingsString": "5000+ ratings",
+      "cloudinaryImageId": "e33e1d3ba7d6b2bb0d45e1001b731fcf",
+      "cuisines": ["Burgers", "American"],
+      "tags": [],
+      "costForTwo": 35000,
+      "costForTwoString": "₹350 FOR TWO",
+      "deliveryTime": 38,
+      "minDeliveryTime": 38,
+      "maxDeliveryTime": 38,
+      "slaString": "38 MINS",
+      "lastMileTravel": 4,
+      "slugs": {
+        "restaurant": "burger-king-hinjewadi-hinjewadi",
+        "city": "pune"
+      },
+      "cityState": "6",
+      "address": "BURGER KING INDIA LIMITED , UNIT NO -18, SURATWALA, MARK PLAZZO, S. NO -27/1,27/5(P),28/B/1,2,3,4, HINJEWADI, PUNE 411057, HADASPAR, PUNE PMC&Rural, Maharashtra -411057",
+      "locality": "Suratwala",
+      "parentId": 166,
+      "unserviceable": false,
+      "veg": false,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [],
+      "chain": [],
+      "feeDetails": {
+        "fees": [
+          {
+            "name": "distance",
+            "fee": 5600,
+            "message": ""
+          },
+          {
+            "name": "time",
+            "fee": 0,
+            "message": ""
+          },
+          {
+            "name": "special",
+            "fee": 0,
+            "message": ""
+          }
+        ],
+        "totalFees": 5600,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "5600",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "",
+      "badges": {
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
+      },
+      "lastMileTravelString": "4 kms",
+      "hasSurge": false,
+      "aggregatedDiscountInfoV3": {
+        "header": "60% OFF",
+        "subHeader": "UPTO ₹120",
+        "discountTag": "",
+        "headerTypeV2": 0
+      },
+      "sla": {
+        "restaurantId": "441447",
+        "deliveryTime": 38,
+        "minDeliveryTime": 38,
+        "maxDeliveryTime": 38,
+        "lastMileTravel": 4,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": false,
+      "avgRating": "4.0",
+      "totalRatings": 5000,
+      "new": false
+    },
+    "subtype": "basic"
+  },
+  {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "3405",
+      "name": "Rolls Mania",
+      "uuid": "e6481602-7d72-4a59-b29b-d2db1a7daf96",
+      "city": "6",
+      "area": "Hinjawadi",
+      "totalRatingsString": "10000+ ratings",
+      "cloudinaryImageId": "vsgw4z2dn2gmbsdgekyw",
+      "cuisines": ["North Indian"],
+      "tags": [],
+      "costForTwo": 20000,
+      "costForTwoString": "₹200 FOR TWO",
+      "deliveryTime": 24,
+      "minDeliveryTime": 24,
+      "maxDeliveryTime": 24,
+      "slaString": "24 MINS",
+      "lastMileTravel": 3,
+      "slugs": {
+        "restaurant": "rolls-mania-hinjewadi",
+        "city": "pune"
+      },
+      "cityState": "6",
+      "address": "Shop 3, Mhatoba Complex, Opposite KPIT Cummins, Shivtej Chowk,Hinjewadi, Pune",
+      "locality": "Shivtej Chowk",
+      "parentId": 171118,
+      "unserviceable": false,
+      "veg": false,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [],
+      "chain": [],
+      "feeDetails": {
+        "fees": [
+          {
+            "name": "time",
+            "fee": 0,
+            "message": ""
+          },
+          {
+            "name": "distance",
+            "fee": 4800,
+            "message": ""
+          },
+          {
+            "name": "special",
+            "fee": 0,
+            "message": ""
+          }
+        ],
+        "totalFees": 4800,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "4800",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "",
+      "badges": {
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
+      },
+      "lastMileTravelString": "3 kms",
+      "hasSurge": false,
+      "aggregatedDiscountInfoV3": {
+        "header": "60% OFF",
+        "subHeader": "UPTO ₹100",
+        "discountTag": "",
+        "headerTypeV2": 0
+      },
+      "sla": {
+        "restaurantId": "3405",
+        "deliveryTime": 24,
+        "minDeliveryTime": 24,
+        "maxDeliveryTime": 24,
+        "lastMileTravel": 3,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": false,
+      "avgRating": "4.1",
+      "totalRatings": 10000,
+      "new": false
+    },
+    "subtype": "basic"
+  },
+  {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "364663",
+      "name": "ChefCoat Biryani - 100% Desi Ghee Made",
+      "uuid": "61bbf331-024f-48e8-af48-86d8e7e0445c",
+      "city": "6",
+      "area": "Hinjawadi",
+      "totalRatingsString": "100+ ratings",
+      "cloudinaryImageId": "k8pvdadec81pplycscqp",
+      "cuisines": ["Biryani", "Kebabs"],
+      "tags": [],
+      "costForTwo": 80000,
+      "costForTwoString": "₹800 FOR TWO",
+      "deliveryTime": 23,
+      "minDeliveryTime": 23,
+      "maxDeliveryTime": 23,
+      "slaString": "23 MINS",
+      "lastMileTravel": 0.800000011920929,
+      "slugs": {
+        "restaurant": "chefcoat-biryani-nerul-nerul",
+        "city": "pune"
+      },
+      "cityState": "6",
+      "address": "ANAVRIN, SHOP NO. 101, GERA IMPERIUM RISE, PLOT NO. 1B, HINJEWADI PHASE-2, PUNE MAHARASHTRA 411057",
+      "locality": "Gera Imperium Rise",
+      "parentId": 21963,
+      "unserviceable": false,
+      "veg": false,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [],
+      "chain": [],
+      "feeDetails": {
+        "fees": [
+          {
+            "name": "distance",
+            "fee": 4000,
+            "message": ""
+          },
+          {
+            "name": "time",
+            "fee": 0,
+            "message": ""
+          },
+          {
+            "name": "special",
+            "fee": 0,
+            "message": ""
+          }
+        ],
+        "totalFees": 4000,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "4000",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "",
+      "badges": {
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
+      },
+      "lastMileTravelString": "0.8 kms",
+      "hasSurge": false,
+      "aggregatedDiscountInfoV3": {
+        "header": "60% OFF",
+        "subHeader": "UPTO ₹100",
+        "discountTag": "",
+        "headerTypeV2": 0
+      },
+      "sla": {
+        "restaurantId": "364663",
+        "deliveryTime": 23,
+        "minDeliveryTime": 23,
+        "maxDeliveryTime": 23,
+        "lastMileTravel": 0.800000011920929,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": false,
+      "avgRating": "3.8",
+      "totalRatings": 100,
+      "new": false
+    },
+    "subtype": "basic"
+  },
+  {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "366017",
+      "name": "Way2Hyderabad - Via ChefCoat Biryani",
+      "uuid": "62b8f8e7-4b91-4396-9e87-489541676a23",
+      "city": "6",
+      "area": "Hinjawadi",
+      "totalRatingsString": "100+ ratings",
+      "cloudinaryImageId": "7f963b0247989ce0d2ade1c21ccc8022",
+      "cuisines": ["Hyderabadi", "Biryani", "Kebabs"],
+      "tags": [],
+      "costForTwo": 50000,
+      "costForTwoString": "₹500 FOR TWO",
+      "deliveryTime": 30,
+      "minDeliveryTime": 30,
+      "maxDeliveryTime": 30,
+      "slaString": "30 MINS",
+      "lastMileTravel": 0.800000011920929,
+      "slugs": {
+        "restaurant": "the-desi-flakes-nerul-nerul",
+        "city": "pune"
+      },
+      "cityState": "6",
+      "address": "ANAVRIN, SHOP NO. 101, GERA IMPERIUM RISE, PLOT NO. 1B, HINJEWADI PHASE-2, PUNE MAHARASHTRA 411057",
+      "locality": "2nd Phase",
+      "parentId": 33026,
+      "unserviceable": false,
+      "veg": false,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [],
+      "chain": [],
+      "feeDetails": {
+        "fees": [
+          {
+            "name": "time",
+            "fee": 0,
+            "message": ""
+          },
+          {
+            "name": "distance",
+            "fee": 4000,
+            "message": ""
+          },
+          {
+            "name": "special",
+            "fee": 0,
+            "message": ""
+          }
+        ],
+        "totalFees": 4000,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "4000",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "",
+      "badges": {
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
+      },
+      "lastMileTravelString": "0.8 kms",
+      "hasSurge": false,
+      "aggregatedDiscountInfoV3": {
+        "header": "60% OFF",
+        "subHeader": "UPTO ₹120",
+        "discountTag": "",
+        "headerTypeV2": 0
+      },
+      "sla": {
+        "restaurantId": "366017",
+        "deliveryTime": 30,
+        "minDeliveryTime": 30,
+        "maxDeliveryTime": 30,
+        "lastMileTravel": 0.800000011920929,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": false,
+      "avgRating": "3.6",
+      "totalRatings": 100,
+      "new": false
+    },
+    "subtype": "basic"
+  },
+  {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "669452",
+      "name": "ICT - It's Cafe Time",
+      "uuid": "5e25e79b-afe6-4cd4-9711-b3d2f0beafcc",
+      "city": "6",
+      "area": "Hinjewadi",
+      "totalRatingsString": "Too Few Ratings",
+      "cloudinaryImageId": "2c9d09a918840331d453e9453addee17",
+      "cuisines": [
+        "Snacks",
+        "Italian",
+        "Continental",
+        "Mexican",
+        "Beverages",
+        "Fast Food"
+      ],
+      "tags": [],
+      "costForTwo": 25000,
+      "costForTwoString": "₹250 FOR TWO",
+      "deliveryTime": 31,
+      "minDeliveryTime": 31,
+      "maxDeliveryTime": 31,
+      "slaString": "31 MINS",
+      "lastMileTravel": 0.800000011920929,
+      "slugs": {
+        "restaurant": "ict---it's-cafe-time-hinjewadi-hinjewadi",
+        "city": "pune"
+      },
+      "cityState": "6",
+      "address": "Shop No. 101, Gera Imperium Rise, near Wipro Circle, Hinjawadi Phase II, Hinjewadi Rajiv Gandhi Infotech Park, Hinjawadi, Pune, Maharashtra 411057, India",
+      "locality": "Infotech Park",
+      "parentId": 105790,
+      "unserviceable": false,
+      "veg": false,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [],
+      "chain": [],
+      "feeDetails": {
+        "fees": [
+          {
+            "name": "distance",
+            "fee": 4000,
+            "message": ""
+          },
+          {
+            "name": "time",
+            "fee": 0,
+            "message": ""
+          },
+          {
+            "name": "special",
+            "fee": 0,
+            "message": ""
+          }
+        ],
+        "totalFees": 4000,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "4000",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "",
+      "badges": {
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
+      },
+      "lastMileTravelString": "0.8 kms",
+      "hasSurge": false,
+      "aggregatedDiscountInfoV3": {
+        "header": "60% OFF",
+        "subHeader": "UPTO ₹100",
+        "discountTag": "",
+        "headerTypeV2": 0
+      },
+      "sla": {
+        "restaurantId": "669452",
+        "deliveryTime": 31,
+        "minDeliveryTime": 31,
+        "maxDeliveryTime": 31,
+        "lastMileTravel": 0.800000011920929,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": false,
+      "avgRating": "--",
+      "totalRatings": 0,
+      "new": false
+    },
+    "subtype": "basic"
+  },
+  {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "523652",
+      "name": "MakeMyLunch ",
+      "uuid": "384adb83-cfff-4784-84b0-25538d55db3d",
+      "city": "6",
+      "area": "Hinjawadi",
+      "totalRatingsString": "20+ ratings",
+      "cloudinaryImageId": "cu9a3fxtovni5zfcvzbk",
+      "cuisines": ["North Indian", "Fast Food", "Snacks"],
+      "tags": [],
+      "costForTwo": 35000,
+      "costForTwoString": "₹350 FOR TWO",
+      "deliveryTime": 31,
+      "minDeliveryTime": 31,
+      "maxDeliveryTime": 31,
+      "slaString": "31 MINS",
+      "lastMileTravel": 0.800000011920929,
+      "slugs": {
+        "restaurant": "crazy-bowls-kharghar-kharghar",
+        "city": "pune"
+      },
+      "cityState": "6",
+      "address": "ANAVRIN,Shop 101, Gera, Imperium Rise,PLOT NO 1B HINJEWADI PH-2 PUNE, Haveli- North of Mutha River, Pune, Maharashtra - 411057",
+      "locality": "2nd Phase",
+      "parentId": 371178,
+      "unserviceable": false,
+      "veg": false,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [],
+      "chain": [],
+      "feeDetails": {
+        "fees": [
+          {
+            "name": "distance",
+            "fee": 4000,
+            "message": ""
+          },
+          {
+            "name": "time",
+            "fee": 0,
+            "message": ""
+          },
+          {
+            "name": "special",
+            "fee": 0,
+            "message": ""
+          }
+        ],
+        "totalFees": 4000,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "4000",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "",
+      "badges": {
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
+      },
+      "lastMileTravelString": "0.8 kms",
+      "hasSurge": false,
+      "aggregatedDiscountInfoV3": {
+        "header": "60% OFF",
+        "subHeader": "UPTO ₹100",
+        "discountTag": "",
+        "headerTypeV2": 0
+      },
+      "sla": {
+        "restaurantId": "523652",
+        "deliveryTime": 31,
+        "minDeliveryTime": 31,
+        "maxDeliveryTime": 31,
+        "lastMileTravel": 0.800000011920929,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": false,
+      "avgRating": "2.9",
+      "totalRatings": 20,
+      "new": false
+    },
+    "subtype": "basic"
+  },
+  {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "364194",
+      "name": "Anavrin Kitchen",
+      "uuid": "e92c3e83-da60-449c-b773-4a121e57b5f4",
+      "city": "6",
+      "area": "Hinjawadi",
+      "totalRatingsString": "100+ ratings",
+      "cloudinaryImageId": "ubgzno8icjtq25a2nrr1",
+      "cuisines": ["North Indian", "Biryani"],
+      "tags": [],
+      "costForTwo": 60000,
+      "costForTwoString": "₹600 FOR TWO",
+      "deliveryTime": 29,
+      "minDeliveryTime": 29,
+      "maxDeliveryTime": 29,
+      "slaString": "29 MINS",
+      "lastMileTravel": 0.800000011920929,
+      "slugs": {
+        "restaurant": "the-biryani-flakes-nerul-nerul",
+        "city": "pune"
+      },
+      "cityState": "6",
+      "address": "ANAVRIN,Shop 101, Gera, Imperium Rise,PLOT NO 1B HINJEWADI PH-2 PUNE, Haveli- North of Mutha River, Pune, Maharashtra - 411057",
+      "locality": "2nd Phase",
+      "parentId": 21966,
+      "unserviceable": false,
+      "veg": false,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [],
+      "chain": [],
+      "feeDetails": {
+        "fees": [
+          {
+            "name": "distance",
+            "fee": 4000,
+            "message": ""
+          },
+          {
+            "name": "time",
+            "fee": 0,
+            "message": ""
+          },
+          {
+            "name": "special",
+            "fee": 0,
+            "message": ""
+          }
+        ],
+        "totalFees": 4000,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "4000",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "",
+      "badges": {
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
+      },
+      "lastMileTravelString": "0.8 kms",
+      "hasSurge": false,
+      "aggregatedDiscountInfoV3": {
+        "header": "₹125 OFF",
+        "subHeader": "ABOVE ₹249",
+        "discountTag": "FLAT DEAL",
+        "headerTypeV2": 0
+      },
+      "sla": {
+        "restaurantId": "364194",
+        "deliveryTime": 29,
+        "minDeliveryTime": 29,
+        "maxDeliveryTime": 29,
+        "lastMileTravel": 0.800000011920929,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": false,
+      "avgRating": "3.8",
+      "totalRatings": 100,
+      "new": false
+    },
+    "subtype": "basic"
+  },
+  {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "368273",
+      "name": "Anavrin Signature",
+      "uuid": "9c6fac9c-98b3-4dcd-ac26-26babcfcc9ec",
+      "city": "6",
+      "area": "Hinjawadi",
+      "totalRatingsString": "50+ ratings",
+      "cloudinaryImageId": "edhv0fqbfr2kaqra7jd8",
+      "cuisines": [
+        "Pastas",
+        "Beverages",
+        "Mexican",
+        "Healthy Food",
+        "Desserts",
+        "Indian"
+      ],
+      "tags": [],
+      "costForTwo": 60000,
+      "costForTwoString": "₹600 FOR TWO",
+      "deliveryTime": 32,
+      "minDeliveryTime": 32,
+      "maxDeliveryTime": 32,
+      "slaString": "32 MINS",
+      "lastMileTravel": 0.800000011920929,
+      "slugs": {
+        "restaurant": "anavrin-cafe-nerul-nerul",
+        "city": "pune"
+      },
+      "cityState": "6",
+      "address": "ANAVRIN, SHOP NO. 101, GERA IMPERIUM RISE, PLOT NO. 1B, HINJEWADI PHASE-2, PUNE MAHARASHTRA 411057",
+      "locality": "Gera Imperium Rise",
+      "parentId": 329320,
+      "unserviceable": false,
+      "veg": false,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [],
+      "chain": [],
+      "feeDetails": {
+        "fees": [
+          {
+            "name": "distance",
+            "fee": 4000,
+            "message": ""
+          },
+          {
+            "name": "time",
+            "fee": 0,
+            "message": ""
+          },
+          {
+            "name": "special",
+            "fee": 0,
+            "message": ""
+          }
+        ],
+        "totalFees": 4000,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "4000",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "",
+      "badges": {
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
+      },
+      "lastMileTravelString": "0.8 kms",
+      "hasSurge": false,
+      "aggregatedDiscountInfoV3": {
+        "header": "₹125 OFF",
+        "subHeader": "ABOVE ₹249",
+        "discountTag": "FLAT DEAL",
+        "headerTypeV2": 0
+      },
+      "sla": {
+        "restaurantId": "368273",
+        "deliveryTime": 32,
+        "minDeliveryTime": 32,
+        "maxDeliveryTime": 32,
+        "lastMileTravel": 0.800000011920929,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": false,
+      "avgRating": "4.1",
+      "totalRatings": 50,
+      "new": false
+    },
+    "subtype": "basic"
+  },
+  {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "535208",
+      "name": "Sweet Tooth - Box of Pleasure",
+      "uuid": "4a6a0371-d120-489b-94ac-9fd4486b51fb",
+      "city": "6",
+      "area": "Hinjawadi",
+      "totalRatingsString": "Too Few Ratings",
+      "cloudinaryImageId": "df71be897d3ee51c6695f0284506037c",
+      "cuisines": ["Snacks"],
+      "tags": [],
+      "costForTwo": 40000,
+      "costForTwoString": "₹400 FOR TWO",
+      "deliveryTime": 31,
+      "minDeliveryTime": 31,
+      "maxDeliveryTime": 31,
+      "slaString": "31 MINS",
+      "lastMileTravel": 0.800000011920929,
+      "slugs": {
+        "restaurant": "crazy-kebabs-kharghar-kharghar",
+        "city": "pune"
+      },
+      "cityState": "6",
+      "address": "ANAVRIN,Shop 101, Gera, Imperium Rise,PLOT NO 1B HINJEWADI PH-2 PUNE, Haveli- North of Mutha River, Pune, Maharashtra - 411057",
+      "locality": "Gera Imperium Rise",
+      "parentId": 336953,
+      "unserviceable": false,
+      "veg": false,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [],
+      "chain": [],
+      "feeDetails": {
+        "fees": [
+          {
+            "name": "distance",
+            "fee": 4000,
+            "message": ""
+          },
+          {
+            "name": "time",
+            "fee": 0,
+            "message": ""
+          },
+          {
+            "name": "special",
+            "fee": 0,
+            "message": ""
+          }
+        ],
+        "totalFees": 4000,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "4000",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "",
+      "badges": {
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
+      },
+      "lastMileTravelString": "0.8 kms",
+      "hasSurge": false,
+      "aggregatedDiscountInfoV3": {
+        "header": "60% OFF",
+        "subHeader": "UPTO ₹100",
+        "discountTag": "",
+        "headerTypeV2": 0
+      },
+      "sla": {
+        "restaurantId": "535208",
+        "deliveryTime": 31,
+        "minDeliveryTime": 31,
+        "maxDeliveryTime": 31,
+        "lastMileTravel": 0.800000011920929,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": false,
+      "avgRating": "--",
+      "totalRatings": 0,
+      "new": false
+    },
+    "subtype": "basic"
+  },
+  {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "660951",
+      "name": "Le MoMo",
+      "uuid": "e465b918-3ba6-4bb1-987c-950b143635ee",
+      "city": "6",
+      "area": "Hinjewadi",
+      "totalRatingsString": "Too Few Ratings",
+      "cloudinaryImageId": "c792c8d2a90814ce6a358304b97be298",
+      "cuisines": ["Chinese", "Tibetan"],
+      "tags": [],
+      "costForTwo": 50000,
+      "costForTwoString": "₹500 FOR TWO",
+      "deliveryTime": 31,
+      "minDeliveryTime": 31,
+      "maxDeliveryTime": 31,
+      "slaString": "31 MINS",
+      "lastMileTravel": 0.800000011920929,
+      "slugs": {
+        "restaurant": "hyderabadi-biryani-by-chefcoat-hinjewadi-hinjewadi",
+        "city": "pune"
+      },
+      "cityState": "6",
+      "address": "Shop No. 101, Ground Floor, Gera Imperium Rise, Hinjawadi Phase II, Hinjewadi Rajiv Gandhi Infotech Park, Hinjawadi, Pune, Maharashtra 411057, India",
+      "locality": "Gera Imperium Rise",
+      "parentId": 396726,
+      "unserviceable": false,
+      "veg": false,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [],
+      "chain": [],
+      "feeDetails": {
+        "fees": [
+          {
+            "name": "distance",
+            "fee": 4000,
+            "message": ""
+          },
+          {
+            "name": "time",
+            "fee": 0,
+            "message": ""
+          },
+          {
+            "name": "special",
+            "fee": 0,
+            "message": ""
+          }
+        ],
+        "totalFees": 4000,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "4000",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "",
+      "badges": {
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
+      },
+      "lastMileTravelString": "0.8 kms",
+      "hasSurge": false,
+      "aggregatedDiscountInfoV3": {
+        "header": "60% OFF",
+        "subHeader": "UPTO ₹100",
+        "discountTag": "",
+        "headerTypeV2": 0
+      },
+      "sla": {
+        "restaurantId": "660951",
+        "deliveryTime": 31,
+        "minDeliveryTime": 31,
+        "maxDeliveryTime": 31,
+        "lastMileTravel": 0.800000011920929,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": false,
+      "avgRating": "--",
+      "totalRatings": 0,
+      "new": false
+    },
+    "subtype": "basic"
+  },
+  {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "528368",
+      "name": "Jiro",
+      "uuid": "5d4aa275-d055-4efd-89b4-8bacb1f437c0",
+      "city": "6",
+      "area": "Hinjawadi",
+      "totalRatingsString": "Too Few Ratings",
+      "cloudinaryImageId": "qeqzzjvv1r70jrzgsxtl",
+      "cuisines": ["Fast Food", "Salads", "Snacks"],
+      "tags": [],
+      "costForTwo": 20000,
+      "costForTwoString": "₹200 FOR TWO",
+      "deliveryTime": 31,
+      "minDeliveryTime": 31,
+      "maxDeliveryTime": 31,
+      "slaString": "31 MINS",
+      "lastMileTravel": 0.800000011920929,
+      "slugs": {
+        "restaurant": "ict-kharghar-kharghar",
+        "city": "pune"
+      },
+      "cityState": "6",
+      "address": "ANAVRIN,Shop 101, Gera, Imperium Rise,PLOT NO 1B HINJEWADI PH-2 PUNE, Haveli- North of Mutha River, Pune, Maharashtra - 411057",
+      "locality": "Gera Imperium Rise",
+      "parentId": 312070,
+      "unserviceable": false,
+      "veg": false,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [],
+      "chain": [],
+      "feeDetails": {
+        "fees": [
+          {
+            "name": "distance",
+            "fee": 4000,
+            "message": ""
+          },
+          {
+            "name": "time",
+            "fee": 0,
+            "message": ""
+          },
+          {
+            "name": "special",
+            "fee": 0,
+            "message": ""
+          }
+        ],
+        "totalFees": 4000,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "4000",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "",
+      "badges": {
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
+      },
+      "lastMileTravelString": "0.8 kms",
+      "hasSurge": false,
+      "aggregatedDiscountInfoV3": {
+        "header": "₹125 OFF",
+        "subHeader": "ABOVE ₹249",
+        "discountTag": "FLAT DEAL",
+        "headerTypeV2": 0
+      },
+      "sla": {
+        "restaurantId": "528368",
+        "deliveryTime": 31,
+        "minDeliveryTime": 31,
+        "maxDeliveryTime": 31,
+        "lastMileTravel": 0.800000011920929,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": false,
+      "avgRating": "--",
+      "totalRatings": 0,
+      "new": false
+    },
+    "subtype": "basic"
+  },
+  {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "679465",
+      "name": "Desi Kitchen\t",
+      "uuid": "20988e8d-6b76-4bdd-b03a-d6a6606c146f",
+      "city": "6",
+      "area": "Hinjewadi",
+      "totalRatingsString": "Too Few Ratings",
+      "cloudinaryImageId": "9e96c7cb82893a8a5e64ef7dacdfe51d",
+      "cuisines": [
+        "Indian",
+        "Tandoor",
+        "Chinese",
+        "Snacks",
+        "Biryani",
+        "Desserts"
+      ],
+      "tags": [],
+      "costForTwo": 40000,
+      "costForTwoString": "₹400 FOR TWO",
+      "deliveryTime": 30,
+      "minDeliveryTime": 30,
+      "maxDeliveryTime": 30,
+      "slaString": "30 MINS",
+      "lastMileTravel": 1.899999976158142,
+      "slugs": {
+        "restaurant": "desi-kitchen-hinjewadi-hinjewadi",
+        "city": "pune"
+      },
+      "cityState": "6",
+      "address": "SHOP NO 5 SR NO 121 GROUND FLOOR WADJAI NAGAR MAAN GAON ROAD HINJWADI PUNE ,Hinjavadi,Mulshi,Pune,Maharashtra-412115",
+      "locality": "Maan Gaon Road",
+      "parentId": 3915,
+      "unserviceable": false,
+      "veg": false,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [],
+      "chain": [],
+      "feeDetails": {
+        "fees": [
+          {
+            "name": "distance",
+            "fee": 4000,
+            "message": ""
+          },
+          {
+            "name": "time",
+            "fee": 0,
+            "message": ""
+          },
+          {
+            "name": "special",
+            "fee": 0,
+            "message": ""
+          }
+        ],
+        "totalFees": 4000,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "4000",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "",
+      "badges": {
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
+      },
+      "lastMileTravelString": "1.8 kms",
+      "hasSurge": false,
+      "aggregatedDiscountInfoV3": {
+        "header": "60% OFF",
+        "subHeader": "UPTO ₹100",
+        "discountTag": "",
+        "headerTypeV2": 0
+      },
+      "sla": {
+        "restaurantId": "679465",
+        "deliveryTime": 30,
+        "minDeliveryTime": 30,
+        "maxDeliveryTime": 30,
+        "lastMileTravel": 1.899999976158142,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": false,
+      "avgRating": "--",
+      "totalRatings": 0,
+      "new": false
+    },
+    "subtype": "basic"
+  },
+  {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "679462",
+      "name": "World Of Momos And Shwarma\t",
+      "uuid": "2e41f2f2-3359-449f-b2a8-07f3cf657764",
+      "city": "6",
+      "area": "Hinjewadi",
+      "totalRatingsString": "Too Few Ratings",
+      "cloudinaryImageId": "3d549758556358d75e3ce6a6f6c2eb0f",
+      "cuisines": ["Chinese", "Arabian", "Snacks"],
+      "tags": [],
+      "costForTwo": 30000,
+      "costForTwoString": "₹300 FOR TWO",
+      "deliveryTime": 26,
+      "minDeliveryTime": 26,
+      "maxDeliveryTime": 26,
+      "slaString": "26 MINS",
+      "lastMileTravel": 1.899999976158142,
+      "slugs": {
+        "restaurant": "world-of-momos-and-shwarma-hinjewadi-hinjewadi",
+        "city": "pune"
+      },
+      "cityState": "6",
+      "address": "SHOP NO 3 SR NO 121 GROUND FLOOR WADJAI NAGAR MAAN GAON ROAD HINJWADI PUNE, Hinjavadi, Mulshi, Pune, Maharashtra - 412115",
+      "locality": "Maan Gaon Road",
+      "parentId": 406079,
+      "unserviceable": false,
+      "veg": false,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [],
+      "chain": [],
+      "feeDetails": {
+        "fees": [
+          {
+            "name": "time",
+            "fee": 0,
+            "message": ""
+          },
+          {
+            "name": "distance",
+            "fee": 4000,
+            "message": ""
+          },
+          {
+            "name": "special",
+            "fee": 0,
+            "message": ""
+          }
+        ],
+        "totalFees": 4000,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "4000",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "",
+      "badges": {
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
+      },
+      "lastMileTravelString": "1.8 kms",
+      "hasSurge": false,
+      "aggregatedDiscountInfoV3": {
+        "header": "60% OFF",
+        "subHeader": "UPTO ₹100",
+        "discountTag": "",
+        "headerTypeV2": 0
+      },
+      "sla": {
+        "restaurantId": "679462",
+        "deliveryTime": 26,
+        "minDeliveryTime": 26,
+        "maxDeliveryTime": 26,
+        "lastMileTravel": 1.899999976158142,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": false,
+      "avgRating": "--",
+      "totalRatings": 0,
+      "new": false
+    },
+    "subtype": "basic"
+  },
+  {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "679460",
+      "name": "Amazing Chaap House",
+      "uuid": "5ede2d21-e02e-49f1-8a41-87af1fd48eac",
+      "city": "6",
+      "area": "Hinjewadi",
+      "totalRatingsString": "Too Few Ratings",
+      "cloudinaryImageId": "ce4a1b5401e85d55850f3df8c01d1989",
+      "cuisines": ["North Indian", "Snacks"],
+      "tags": [],
+      "costForTwo": 30000,
+      "costForTwoString": "₹300 FOR TWO",
+      "deliveryTime": 28,
+      "minDeliveryTime": 28,
+      "maxDeliveryTime": 28,
+      "slaString": "28 MINS",
+      "lastMileTravel": 1.899999976158142,
+      "slugs": {
+        "restaurant": "amazing-chaap-house-hinjewadi-hinjewadi",
+        "city": "pune"
+      },
+      "cityState": "6",
+      "address": "SHOP NO 5 SR NO 121 GROU0ND FLOOR WADJAI NAGAR MAAN GAON ROAD HINJWADI PUNE ,Hinjavadi,Mulshi,Pune,Maharashtra-412115",
+      "locality": "Maan Gaon Road",
+      "parentId": 406078,
+      "unserviceable": false,
+      "veg": false,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [],
+      "chain": [],
+      "feeDetails": {
+        "fees": [
+          {
+            "name": "time",
+            "fee": 0,
+            "message": ""
+          },
+          {
+            "name": "distance",
+            "fee": 4000,
+            "message": ""
+          },
+          {
+            "name": "special",
+            "fee": 0,
+            "message": ""
+          }
+        ],
+        "totalFees": 4000,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "4000",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "",
+      "badges": {
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
+      },
+      "lastMileTravelString": "1.8 kms",
+      "hasSurge": false,
+      "aggregatedDiscountInfoV3": {
+        "header": "25% OFF",
+        "subHeader": "UPTO ₹125",
+        "discountTag": "",
+        "headerTypeV2": 0
+      },
+      "sla": {
+        "restaurantId": "679460",
+        "deliveryTime": 28,
+        "minDeliveryTime": 28,
+        "maxDeliveryTime": 28,
+        "lastMileTravel": 1.899999976158142,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": false,
+      "avgRating": "--",
+      "totalRatings": 0,
+      "new": false
+    },
+    "subtype": "basic"
+  }
+]
