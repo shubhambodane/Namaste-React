@@ -27,26 +27,35 @@
 - Tree Shaking - remove unused code
 - Different dev and prod bundles
 
-## Namste Food
-
-/\*\*
+## Namste Food App
 
 - AppLayout
 - Header
-  - - Logo
-  - - Nav Items
+  - Logo
+  - Nav Items
 - Body
-  - - Search
-  - - RestaurentContainer
-  - - RestaurentCard
-  - Img
-  - Name
-  - Star Rating
-  - cuisine
-  - delivery time
+  - Search
+  - RestaurentContainer
+  - RestaurentCard
+    - Img
+    - Name
+    - Star Rating
+    - cuisine
+    - delivery time
 - Footer
-  - - Copyright
-  - - Links
-  - - Address
-  - - Contact
-      \*/
+  - Copyright
+  - Links
+  - Address
+  - Contact
+
+## Two types of Export/Default
+
+- Default Export/ Import
+   export default Component;
+   import Component from 'Path'
+
+- Named Export/Import
+
+  export const Component;
+  import {Component} from "path"
+  
