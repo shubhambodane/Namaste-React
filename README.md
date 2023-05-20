@@ -51,11 +51,10 @@
 ## Two types of Export/Default
 
 - Default Export/ Import
-   export default Component;
-   import Component from 'Path'
+  - export default Component;
+  - import Component from 'Path'
 
 - Named Export/Import
-
-  export const Component;
-  import {Component} from "path"
+  - export const Component;
+  - import {Component} from "path"
   
