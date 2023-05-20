@@ -4,7 +4,7 @@
 
 ## Build Commands
 
-- Development Build  -- npx parcel index.html(entrypoint)
+- Development Build -- npx parcel index.html(entrypoint)
 - Production Build -- npx parcel build index.html(entrypoint)
 
 ## Parcel
@@ -26,3 +26,27 @@
 - Https hosting
 - Tree Shaking - remove unused code
 - Different dev and prod bundles
+
+## Namste Food
+
+/\*\*
+
+- AppLayout
+- Header
+  - - Logo
+  - - Nav Items
+- Body
+  - - Search
+  - - RestaurentContainer
+  - - RestaurentCard
+  - Img
+  - Name
+  - Star Rating
+  - cuisine
+  - delivery time
+- Footer
+  - - Copyright
+  - - Links
+  - - Address
+  - - Contact
+      \*/
