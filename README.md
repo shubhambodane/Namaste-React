@@ -64,3 +64,7 @@
 - useState()
   - Superpowerful state variables in react
 - useEffect()
+
+## Chrome extension
+
+- Install Allow CORS extension to fetch realtime data from swiggy API
