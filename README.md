@@ -68,3 +68,8 @@
 ## Chrome extension
 
 - Install Allow CORS extension to fetch realtime data from swiggy API
+
+## 2 Types of routing in webapps
+
+- Client side routing
+- Server side routing
