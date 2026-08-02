@@ -1,6 +1,7 @@
-import RestaurentCard from './RestaurentCard';
+import RestaurantCard from './RestaurantCard';
 import { useState, useEffect } from 'react';
 import Shimmer from './Shimmer';
+import { SWIGGY_RESTAURANT_API } from '../utils/constants';
 
 const Body = () => {
   // local state variable - super powerful variable
@@ -13,21 +14,27 @@ const Body = () => {
   // console.log('render');
 
   const fetchData = async () => {
-    const data = await fetch(
-      'https://www.swiggy.com/dapi/restaurants/list/v5?lat=18.6226766&lng=73.7435228&page_type=DESKTOP_WEB_LISTING'
-    );
+    const data = await fetch(SWIGGY_RESTAURANT_API);
     const json = await data.json();
 
-    setRestaurants(json?.data?.cards[2]?.data?.data?.cards);
-    setFilteredRestaurants(json?.data?.cards[2]?.data?.data?.cards);
+    setRestaurants(
+      json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle
+        ?.restaurants,
+    );
+    setFilteredRestaurants(
+      json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle
+        ?.restaurants,
+    );
   };
 
+  // If no dependency array  ==> useEffect is called on every component render
+  // If the dependency array is empty = [] => useEffect is called on only initial render ( just once )
   useEffect(() => {
     fetchData();
   }, []);
 
   //conditional rendering
-  return restaurants.length === 0 ? (
+  return restaurants?.length === 0 ? (
     <Shimmer />
   ) : (
     <div className="body">
@@ -46,7 +53,7 @@ const Body = () => {
             onClick={() => {
               // filter the restaurant cards and update the UI
               const filteredRestaurants = restaurants.filter((res) =>
-                res.data.name.toLowerCase().includes(searchText.toLowerCase())
+                res.data.name.toLowerCase().includes(searchText.toLowerCase()),
               );
               setFilteredRestaurants(filteredRestaurants);
             }}
@@ -58,7 +65,7 @@ const Body = () => {
           className="filter-Btn"
           onClick={() => {
             const filteredRestaurants = restaurants.filter(
-              (rest) => parseFloat(rest.data.avgRating) > 3.8
+              (rest) => parseFloat(rest.info.avgRating) > 3.8,
             );
             setFilteredRestaurants(filteredRestaurants);
           }}
@@ -68,7 +75,7 @@ const Body = () => {
       </div>
       <div className="rest-container">
         {filteredRestaurants.map((restaurant) => (
-          <RestaurentCard key={restaurant.data.id} {...restaurant} />
+          <RestaurantCard key={restaurant.info.id} {...restaurant} />
         ))}
       </div>
     </div>
