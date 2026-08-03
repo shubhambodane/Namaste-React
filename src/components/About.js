@@ -8,8 +8,7 @@ const About = () => {
         My name is Shubham Bodane, I am working as an full stack developer in a
         product based company since 7 years.
       </p>
-      <User />
-      <UserClass name={'Shubham'} location={'Tathawade'} />
+      <UserClass />
     </div>
   );
 };

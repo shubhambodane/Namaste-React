@@ -3,29 +3,36 @@ import React from 'react';
 class UserClass extends React.Component {
   constructor(props) {
     super(props);
-
     this.state = {
-      count: 0,
-      count1: 1,
+      userData: {
+        name: '',
+        location: '',
+        html_url: '',
+        avatar_url: '',
+      },
     };
   }
+
+  async componentDidMount() {
+    // best place to make an API call
+    const data = await fetch('https://api.github.com/users/shubhambodane');
+    const jsonData = await data.json();
+    console.log('Fetched User Data:', jsonData);
+    this.setState({ userData: jsonData });
+  }
+
   render() {
-    const { name, location } = this.props;
-    const { count } = this.state;
+    const { userData } = this.state;
     return (
       <div className="user-card">
-        <h3> Name: {name} </h3>
-        <p> Count: {count}</p>
-        <button
-          onClick={() => {
-            this.setState({ count: count + 1 });
-          }}
-        >
-          {' '}
-          Increase Count
-        </button>
-        <h4> Location: {location} </h4>
-        <h4> Contact: https://www.github.com/shubhambodane</h4>
+        <img
+          src={userData.avatar_url}
+          alt="User Avatar"
+          className="user-avatar"
+        />
+        <h3> Name: {userData.name} </h3>
+        <h4> Location: {userData.location} </h4>
+        <h4> Contact: {userData.html_url} </h4>
       </div>
     );
   }
