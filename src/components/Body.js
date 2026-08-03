@@ -1,7 +1,7 @@
 import RestaurantCard from './RestaurantCard';
 import { useState, useEffect } from 'react';
 import Shimmer from './Shimmer';
-import { SWIGGY_RESTAURANT_API } from '../utils/constants';
+import { GET_ALL_RESTAURANTS } from '../utils/constants';
 
 const Body = () => {
   // local state variable - super powerful variable
@@ -14,17 +14,14 @@ const Body = () => {
   // console.log('render');
 
   const fetchData = async () => {
-    const data = await fetch(SWIGGY_RESTAURANT_API);
+    const data = await fetch(GET_ALL_RESTAURANTS);
     const json = await data.json();
-
-    setRestaurants(
-      json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle
-        ?.restaurants,
-    );
-    setFilteredRestaurants(
-      json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle
-        ?.restaurants,
-    );
+    const restaurantList =
+      json?.data?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle
+        ?.restaurants || [];
+    console.log('Fetched Restaurants:', restaurantList);
+    setRestaurants(restaurantList);
+    setFilteredRestaurants(restaurantList);
   };
 
   // If no dependency array  ==> useEffect is called on every component render
