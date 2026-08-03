@@ -50,7 +50,7 @@ const Body = () => {
             onClick={() => {
               // filter the restaurant cards and update the UI
               const filteredRestaurants = restaurants.filter((res) =>
-                res.data.name.toLowerCase().includes(searchText.toLowerCase()),
+                res.info.name.toLowerCase().includes(searchText.toLowerCase()),
               );
               setFilteredRestaurants(filteredRestaurants);
             }}
@@ -62,7 +62,7 @@ const Body = () => {
           className="filter-Btn"
           onClick={() => {
             const filteredRestaurants = restaurants.filter(
-              (rest) => parseFloat(rest.info.avgRating) > 3.8,
+              (rest) => parseFloat(rest.info.avgRating) > 4.5,
             );
             setFilteredRestaurants(filteredRestaurants);
           }}
