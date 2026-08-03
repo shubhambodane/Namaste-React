@@ -6,4 +6,9 @@ const CDN_URL =
 const SWIGGY_RESTAURANT_API =
   'https://corsproxy.io/?url=https://www.swiggy.com/dapi/restaurants/list/v5?lat=18.620047&lng=73.7441082&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING';
 
-export { LOGO_URL, CDN_URL, SWIGGY_RESTAURANT_API };
+const SWIGGY_MENU_API = (resId) =>
+  `https://corsproxy.io/?url=${encodeURIComponent(
+    `https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=18.620047&lng=73.7441082&restaurantId=${resId}&catalog_qa=undefined&submitAction=ENTER`,
+  )}`;
+
+export { LOGO_URL, CDN_URL, SWIGGY_RESTAURANT_API, SWIGGY_MENU_API };

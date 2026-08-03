@@ -1,32 +1,53 @@
 import { useEffect, useState } from 'react';
+import { useParams } from 'react-router-dom';
 import Shimmer from './Shimmer';
+import { SWIGGY_MENU_API } from '../utils/constants';
 
 const RestaurantMenu = () => {
+  const { resId } = useParams();
   const [resInfo, setResInfo] = useState(null);
+  const [isError, setIsError] = useState(false);
 
   const fetchMenu = async () => {
-    const url =
-      'https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=18.620047&lng=73.7441082&restaurantId=1285671&catalog_qa=undefined&submitAction=ENTER';
-    const data = await fetch(url);
-    // const json = await data?.json();
-    setResInfo(data || null);
+    try {
+      const url = SWIGGY_MENU_API(resId);
+      const data = await fetch(url);
+      const json = await data.json();
+      setResInfo(json || {});
+    } catch (error) {
+      console.error('Failed to fetch menu:', error);
+      setIsError(true);
+    }
   };
 
   useEffect(() => {
     fetchMenu();
-  }, []);
+  }, [resId]);
 
-  const { name, cuisines, costForTwoMessage } =
-    resInfo?.cards?.[0]?.card?.card?.info ?? {};
+  if (isError) {
+    return (
+      <div className="menu">
+        <p>Unable to load restaurant menu. Please try again later.</p>
+      </div>
+    );
+  }
 
-  return resInfo === null ? (
-    <Shimmer />
-  ) : (
+  if (resInfo === null) {
+    return <Shimmer />;
+  }
+
+  const {
+    name = '',
+    cuisines = [],
+    costForTwoMessage = '',
+  } = resInfo?.cards?.[0]?.card?.card?.info ?? {};
+
+  return (
     <div className="menu">
-      <p> Hello, this is the restaurant menu!</p>
-      {/* <h1> {name}</h1>
-      <h3> {cuisines.join(', ')} </h3>
-      <h3> {costForTwoMessage}</h3> */}
+      <p>Hello, this is the restaurant menu!</p>
+      <h1>{name}</h1>
+      <h3>{cuisines.join(', ')}</h3>
+      <h3>{costForTwoMessage}</h3>
     </div>
   );
 };
