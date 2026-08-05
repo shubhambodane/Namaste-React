@@ -8,28 +8,37 @@ const Header = () => {
 
   const onlineStatus = useOnlineStatus();
   return (
-    <div className="header">
-      <div className="logo-container">
-        <img className="logo" alt="Namaste App" src={LOGO_URL}></img>
+    <div
+      className="flex justify-between bg-orange-50 shadow-lg m-2 sm:bg-yellow-300
+    lg:bg-green-100"
+    >
+      <div>
+        <Link to="/">
+          <img className="w-56" alt="Namaste App" src={LOGO_URL}></img>
+        </Link>
       </div>
-      <div className="nav-items">
-        <ul>
-          <li>Online Status : {onlineStatus ? '🟢' : '🔴'}</li>
-          <li>
+      <div className="flex items-center ">
+        <ul className="flex p-4 m-4">
+          <li className=" px-4">
+            Online Status : {onlineStatus ? '🟢' : '🔴'}
+          </li>
+          <li className="px-4 hover:text-blue-600 hover:underline cursor-pointer transition-colors">
             <Link to="/"> Home</Link>
           </li>
-          <li>
+          <li className="px-4 hover:text-blue-600 hover:underline cursor-pointer transition-colors">
             <Link to="/grocery">Grocery</Link>
           </li>
-          <li>
+          <li className=" px-4 hover:text-blue-600 hover:underline cursor-pointer transition-colors">
             <Link to="/about">About us</Link>
           </li>
-          <li>
+          <li className=" px-4 hover:text-blue-600 hover:underline cursor-pointer transition-colors">
             <Link to="/contact">Contact us</Link>
           </li>
-          <li>Cart</li>
+          <li className=" px-4 hover:text-blue-600 hover:underline cursor-pointer transition-colors">
+            Cart
+          </li>
           <button
-            className="login-btn"
+            className="px-4 hover:text-blue-600 hover:underline cursor-pointer transition-colors"
             onClick={() => {
               btnName === 'Login' ? setBtnName('Logout') : setBtnName('Login');
             }}
