@@ -2,6 +2,7 @@ import RestaurantCard from './RestaurantCard';
 import { useState, useEffect } from 'react';
 import Shimmer from './Shimmer';
 import { GET_ALL_RESTAURANTS } from '../utils/constants';
+import useOnlineStatus from '../utils/useOnlineStatus';
 
 const Body = () => {
   // local state variable - super powerful variable
@@ -29,6 +30,16 @@ const Body = () => {
   useEffect(() => {
     fetchData();
   }, []);
+
+  const onlineStatus = useOnlineStatus();
+  if (!onlineStatus) {
+    return (
+      <h1>
+        {' '}
+        Looks like you are offline!! Please check your internet connection
+      </h1>
+    );
+  }
 
   //conditional rendering
   return restaurants?.length === 0 ? (
