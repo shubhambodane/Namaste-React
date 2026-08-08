@@ -22,7 +22,7 @@ const Body = () => {
     const restaurantList =
       json?.data?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle
         ?.restaurants || [];
-    console.log('Fetched Restaurants:', restaurantList);
+    // console.log('Fetched Restaurants:', restaurantList);
     setRestaurants(restaurantList);
     setFilteredRestaurants(restaurantList);
   };
