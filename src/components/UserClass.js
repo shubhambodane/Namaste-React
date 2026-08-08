@@ -25,7 +25,7 @@ class UserClass extends React.Component {
     const { userData } = this.state;
     return (
       <div>
-        <img src={userData.avatar_url} alt="User Avatar" />
+        <img src={userData.avatar_url || null} alt="User Avatar" />
         <h3> Name: {userData.name} </h3>
         <h4> Location: {userData.location} </h4>
         <h4> Contact: {userData.html_url} </h4>
