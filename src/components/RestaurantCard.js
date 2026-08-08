@@ -1,7 +1,7 @@
 import { CDN_URL } from '../utils/constants';
 import { Link } from 'react-router-dom';
 
-const RestaurentCard = (props) => {
+const RestaurantCard = (props) => {
   const { id, name, cuisines, avgRating, sla, costForTwo, cloudinaryImageId } =
     props?.info || {};
 
@@ -26,4 +26,20 @@ const RestaurentCard = (props) => {
   );
 };
 
-export default RestaurentCard;
+// Higher order component
+
+// input - RestaurantCard => RestaurantCardPromoted.
+//  In this data for each restaurant, we have a promoted variable.
+// It gives us the information on whether the restaurant is promoted or not.
+export const withPromotedLabel = (RestaurantCard) => {
+  return (props) => (
+    <div>
+      <label className="block font-bold mb-2 absolute bg-black text-white rounded-sm">
+        Promoted
+      </label>
+      <RestaurantCard {...props} />
+    </div>
+  );
+};
+
+export default RestaurantCard;

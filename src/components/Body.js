@@ -1,4 +1,4 @@
-import RestaurantCard from './RestaurantCard';
+import RestaurantCard, { withPromotedLabel } from './RestaurantCard';
 import { useState, useEffect } from 'react';
 import Shimmer from './Shimmer';
 import { GET_ALL_RESTAURANTS } from '../utils/constants';
@@ -10,6 +10,8 @@ const Body = () => {
   const [filteredRestaurants, setFilteredRestaurants] = useState([]);
 
   const [searchText, setSearchText] = useState('');
+
+  const RestaurantCardPromoted = withPromotedLabel(RestaurantCard);
 
   // whenever state variable is updated, react triggers a reconciliation cycle ( re-renders the component)
   // console.log('render');
@@ -86,7 +88,13 @@ const Body = () => {
       </div>
       <div className="flex flex-wrap">
         {filteredRestaurants.map((restaurant) => (
-          <RestaurantCard key={restaurant.info.id} {...restaurant} />
+          <div key={restaurant?.info?.id}>
+            {restaurant?.info?.promoted ? (
+              <RestaurantCardPromoted {...restaurant} />
+            ) : (
+              <RestaurantCard {...restaurant} />
+            )}
+          </div>
         ))}
       </div>
     </div>
