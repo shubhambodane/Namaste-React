@@ -1,4 +1,4 @@
-import { useParams } from 'react-router-dom';
+import { useParams } from 'react-router';
 import Shimmer from './Shimmer';
 import { GET_RESTAURANT_MENU } from '../utils/constants';
 import useRestaurantMenu from '../utils/useRestaurantMenu';
