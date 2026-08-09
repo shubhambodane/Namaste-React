@@ -3,11 +3,15 @@ import { useState, useEffect } from 'react';
 import Shimmer from './Shimmer';
 import { GET_ALL_RESTAURANTS } from '../utils/constants';
 import useOnlineStatus from '../utils/useOnlineStatus';
+import { useContext } from 'react';
+import UserContext from '../utils/UserContext';
 
 const Body = () => {
   // local state variable - super powerful variable
   const [restaurants, setRestaurants] = useState([]);
   const [filteredRestaurants, setFilteredRestaurants] = useState([]);
+
+  const { loggedInUser, setUserName } = useContext(UserContext);
 
   const [searchText, setSearchText] = useState('');
 
@@ -84,6 +88,15 @@ const Body = () => {
           >
             Top Rated Restaurants
           </button>
+        </div>
+        <div className="search m-4 p-4 ">
+          <label>UserName: </label>
+          <input
+            type="text"
+            className="border border-solid border-black"
+            value={loggedInUser}
+            onChange={(e) => setUserName(e.target.value)}
+          />
         </div>
       </div>
       <div className="flex flex-wrap">
