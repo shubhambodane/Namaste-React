@@ -96,3 +96,5 @@
 - Installed babel dependencies
 - Configure Babel
 - Configure parcel config file to disable babel transpilation
+- Jest Configuration
+- Install jsdom library
