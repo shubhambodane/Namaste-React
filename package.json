@@ -4,7 +4,8 @@
   "description": "This is namaste react by akshay saini",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -20,7 +21,12 @@
   },
   "homepage": "https://github.com/shubhambodane/Namaste-React#readme",
   "devDependencies": {
+    "@babel/core": "^7.29.7",
+    "@babel/preset-env": "^7.29.7",
     "@tailwindcss/postcss": "^4.3.3",
+    "@testing-library/react": "^16.3.2",
+    "babel-jest": "^30.4.1",
+    "jest": "^30.4.2",
     "parcel": "^2.16.4",
     "postcss": "^8.5.26",
     "tailwindcss": "^4.3.3"

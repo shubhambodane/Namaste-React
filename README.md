@@ -82,3 +82,17 @@
 - Slice (cartSlice)
 - dispatch (action)
 - Selector
+
+## Types of testing (Developer)
+
+- unit testing
+- integration testing
+- end to end testing (E2E testing)
+
+## Setting up testing in our app
+
+- Install React Testing Library
+- Install Jest
+- Installed babel dependencies
+- Configure Babel
+- Configure parcel config file to disable babel transpilation
