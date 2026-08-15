@@ -1,0 +1,62 @@
+{
+  "data": {
+    "data": {
+      "cards": [
+        {
+          "card": {
+            "card": {
+              "gridElements": {
+                "infoWithStyle": {
+                  "restaurants": [
+                    {
+                      "info": {
+                        "id": "101",
+                        "name": "Burger King",
+                        "cloudinaryImageId": "burger-1",
+                        "cuisines": ["Burgers", "American"],
+                        "avgRating": "4.2",
+                        "costForTwo": "₹350 for two",
+                        "sla": {
+                          "deliveryTime": 25
+                        },
+                        "promoted": true
+                      }
+                    },
+                    {
+                      "info": {
+                        "id": "102",
+                        "name": "Pizza Hut",
+                        "cloudinaryImageId": "pizza-1",
+                        "cuisines": ["Pizza", "Italian"],
+                        "avgRating": "4.5",
+                        "costForTwo": "₹500 for two",
+                        "sla": {
+                          "deliveryTime": 30
+                        },
+                        "promoted": false
+                      }
+                    },
+                    {
+                      "info": {
+                        "id": "103",
+                        "name": "KFC",
+                        "cloudinaryImageId": "kfc-1",
+                        "cuisines": ["Fast Food", "Snacks"],
+                        "avgRating": "4.0",
+                        "costForTwo": "₹300 for two",
+                        "sla": {
+                          "deliveryTime": 20
+                        },
+                        "promoted": false
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
