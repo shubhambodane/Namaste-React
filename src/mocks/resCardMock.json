@@ -1,0 +1,13 @@
+{
+  "info": {
+    "id": "123",
+    "name": "Test Restaurant",
+    "cuisines": ["Italian", "Mexican"],
+    "avgRating": "4.5",
+    "costForTwo": "₹500 for two",
+    "cloudinaryImageId": "test-image",
+    "sla": {
+      "deliveryTime": "30"
+    }
+  }
+}
