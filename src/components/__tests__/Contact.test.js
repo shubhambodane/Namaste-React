@@ -5,7 +5,7 @@ import '@testing-library/jest-dom';
 // render --> query --> assert
 
 describe('Test Contact Component', () => {
-  test('Should load contact us component', () => {
+  it('Should load contact us component', () => {
     render(<Contact />);
     1;
 
@@ -14,7 +14,7 @@ describe('Test Contact Component', () => {
     ` `;
   });
 
-  test('Should load button inside Contact component', () => {
+  it('Should load button inside Contact component', () => {
     render(<Contact />);
     const button = screen.getByText('Submit');
     expect(button).toBeInTheDocument();
