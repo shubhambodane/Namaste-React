@@ -7,6 +7,17 @@
             "card": {
               "gridElements": {
                 "infoWithStyle": {
+                  "restaurants": []
+                }
+              }
+            }
+          }
+        },
+        {
+          "card": {
+            "card": {
+              "gridElements": {
+                "infoWithStyle": {
                   "restaurants": [
                     {
                       "info": {
