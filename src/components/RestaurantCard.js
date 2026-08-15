@@ -8,6 +8,7 @@ const RestaurantCard = (props) => {
   return (
     <Link to={`/restaurants/${id}`}>
       <div
+        data-testid="testResCard"
         className="m-4 p-4 w-[256px] rounded-lg cursor-pointer bg-[#f0f0f0]
         hover:bg-gray-400"
       >
