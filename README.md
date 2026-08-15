@@ -98,3 +98,4 @@
 - Configure parcel config file to disable babel transpilation
 - Jest Configuration
 - Install jsdom library
+- Install @testing-library/jest-dom
